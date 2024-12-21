@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1358 530" preserveAspectRatio="xMidYMid" width="1358" height="530" style="shape-rendering: auto; display: block; background: transparent;">
+  <style>
+    /* Keyframe animation to shift the wave paths */
+    @keyframes waveAnimation {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(10px); }
+      100% { transform: translateX(0); }
+    }
+
+    /* Apply animation to each path with different delays for a staggered effect */
+    path[data-idx="5"] { animation: waveAnimation 4s ease-in-out infinite; }
+    path[data-idx="7"] { animation: waveAnimation 4s ease-in-out infinite 0.5s; }
+    path[data-idx="9"] { animation: waveAnimation 4s ease-in-out infinite 1s; }
+    path[data-idx="11"] { animation: waveAnimation 4s ease-in-out infinite 1.5s; }
+    path[data-idx="13"] { animation: waveAnimation 4s ease-in-out infinite 2s; }
+  </style>
+
+  <g data-idx="1">
+    <linearGradient y2="0" y1="0" x2="1" x1="0" id="lg-nq4q5u6dq7r" data-idx="2">
+      <stop offset="0" stop-color="#ff00ff" data-idx="3"></stop>
+      <stop offset="1" stop-color="#00ffff" data-idx="4"></stop>
+    </linearGradient>
+    <!-- Animated paths with staggered animations -->
+    <path opacity="0.4" fill="url(#lg-nq4q5u6dq7r)" d="M 0 0 L 0 382.267 Q 135.8 378.846 271.6 350.759 T 543.2 254.775 T 814.8 253.185 T 1086.4 204.313 T 1358 181.276 L 1358 0 Z" data-idx="5"></path>
+    <path opacity="0.4" fill="url(#lg-nq4q5u6dq7r)" d="M 0 0 L 0 314.69 Q 135.8 328.164 271.6 303.522 T 543.2 314.105 T 814.8 272.321 T 1086.4 191.205 T 1358 209.396 L 1358 0 Z" data-idx="7"></path>
+    <path opacity="0.4" fill="url(#lg-nq4q5u6dq7r)" d="M 0 0 L 0 381.177 Q 135.8 335.162 271.6 296.177 T 543.2 268.939 T 814.8 290.086 T 1086.4 190.291 T 1358 184.126 L 1358 0 Z" data-idx="9"></path>
+    <path opacity="0.4" fill="url(#lg-nq4q5u6dq7r)" d="M 0 0 L 0 351.783 Q 135.8 352.25 271.6 306.89 T 543.2 257.327 T 814.8 271.363 T 1086.4 194.127 T 1358 146.265 L 1358 0 Z" data-idx="11"></path>
+    <path opacity="0.4" fill="url(#lg-nq4q5u6dq7r)" d="M 0 0 L 0 358.897 Q 135.8 343.188 271.6 311.363 T 543.2 263.372 T 814.8 244.936 T 1086.4 219.726 T 1358 220.642 L 1358 0 Z" data-idx="13"></path>
+  </g>
+</svg>
