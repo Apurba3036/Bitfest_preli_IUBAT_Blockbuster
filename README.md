@@ -21,7 +21,7 @@ Before running the code, you need to install the following dependencies:
 ```bash
 !pip install datasets transformers tokenizers accelerate torch torchvision torchaudio evaluate scikit-learn
 !pip install huggingface-hub
-
+```
 
 # 🚀 Challenge 2: Recipe Chatbot and Image Analysis with Gemini API
 
